@@ -1,0 +1,212 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .year-selection {
+    background-color: #ff69b4;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 10px solid #ff4081;
+  }
+  
+  .year-selection select {
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #ff4081;
+    cursor: pointer;
+  }
+  
+  .header {
+    background-color: #ff69b4;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 10px solid #ff4081;
+  }
+  
+  .header-content {
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 3.5em;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  header .subheading {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  header .countdown-message {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  header .love-declaration {
+    font-size: 1.4em;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  
+  .header-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Flashcard Styles */
+  .flashcard {
+    padding: 30px 0;
+  }
+  
+  .flashcard-intro {
+    font-size: 1.4em;
+    color: #ff4081;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .card-text {
+    max-width: 600px;
+  }
+  
+  .card h3 {
+    font-size: 1.8em;
+    color: #ff4081;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Love Quiz Section */
+  .quiz-intro {
+    font-size: 1.4em;
+    color: #ff4081;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .quiz-question {
+    font-size: 1.8em;
+    color: #ff69b4;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .quiz {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .quiz:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .quiz button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .quiz button:hover {
+    background-color: #f50057;
+  }
+  
+  .quiz p {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  /* Surprise Modal Styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 15% auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  #closeModal {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #closeModal:hover {
+    background-color: #f50057;
+  }
+  
