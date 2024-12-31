@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fce4ec;
+    background-color:  #fce4ec;
     margin: 0;
     padding: 0;
     color: #333;
@@ -13,7 +13,7 @@ body {
   }
   
   .year-selection {
-    background-color: #ff69b4;
+    background-color: #84a3e6;
     color: white;
     padding: 30px 0;
     text-align: center;
@@ -25,16 +25,16 @@ body {
     padding: 10px;
     background-color: #ffffff;
     border-radius: 8px;
-    color: #ff4081;
+    color: #2e1a21;
     cursor: pointer;
   }
   
   .header {
-    background-color: #ff69b4;
+    background-color:  #84a3e6;
     color: white;
     padding: 30px 0;
     text-align: center;
-    border-bottom: 10px solid #ff4081;
+    border-bottom: 10px solid  #84a3e6;
   }
   
   .header-content {
@@ -78,7 +78,7 @@ body {
   
   .flashcard-intro {
     font-size: 1.4em;
-    color: #ff4081;
+    color: #3e78f5;
     text-align: center;
     margin-bottom: 30px;
     font-weight: bold;
@@ -112,7 +112,7 @@ body {
   
   .card h3 {
     font-size: 1.8em;
-    color: #ff4081;
+    color: #3e78f5;
     margin-bottom: 10px;
   }
   
@@ -120,6 +120,7 @@ body {
     font-size: 1.2em;
     color: #333;
   }
+  
   
   /* Love Quiz Section */
   .quiz-intro {
