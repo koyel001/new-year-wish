@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color:  #fce4ec;
+    background-color:  white;
     margin: 0;
     padding: 0;
     color: #333;
@@ -44,7 +44,7 @@ body {
   header h1 {
     font-size: 3.5em;
     margin: 0;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing script', cursive;
   }
   
   header .subheading {
@@ -59,7 +59,7 @@ body {
   
   header .love-declaration {
     font-size: 1.4em;
-    color: #fff;
+    color: white;
     margin-top: 30px;
     font-weight: bold;
   }
